@@ -17,7 +17,7 @@ public class AccountForm
 
     public void setName(String name)
     {
-    		//add comments
+    		//add comments in master
         this.name = name;
     }
 

@@ -15,6 +15,7 @@ public class AccountController
     @RequestMapping(value = "account/list", method = RequestMethod.GET)
     public String list(Map<String, Object> model)
     {
+    		//add some comments here
         model.put("accounts", this.accountService.getAllAccounts());
         return "account/list";
     }
